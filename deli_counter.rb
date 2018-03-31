@@ -1,3 +1,4 @@
+var katz_deli = []
 def line(katz_deli)
   if katz_deli.any? == false
     puts "The line is currently empty."
@@ -10,7 +11,7 @@ def line(katz_deli)
   end
 end
 
-def take_a_number(katzDeliLine, name) 
-  katzDeliLine.push(name)
-  return "Welcome, " + name + ". You are number " + katzDeliLine.length + " in line."
+def take_a_number(katz_deli, name) 
+  katz_deli.push(name)
+  return "Welcome, " + name + ". You are number " + katz_deli.length + " in line."
 }
