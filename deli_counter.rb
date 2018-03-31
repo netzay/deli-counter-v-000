@@ -10,7 +10,7 @@ def line(katz_deli)
   end
 end
 
-def take_a_number(katz_deli, name)
-  line(katz_deli).push(name)
-  puts name
-end
+def take_a_number(katzDeliLine, name) 
+  katzDeliLine.push(name)
+  return "Welcome, " + name + ". You are number " + katzDeliLine.length + " in line."
+}
