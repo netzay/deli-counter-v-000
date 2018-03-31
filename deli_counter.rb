@@ -12,4 +12,5 @@ end
 
 def take_a_number(katz_deli, name)
   line(katz_deli).push(name)
+  puts name
 end
